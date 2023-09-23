@@ -1,9 +1,12 @@
 {
-  "name": "todo_list",
+  "name": "bm_todo_list",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
+  "bin":{
+    "bm_todo_list" : "dist/bm_todo_list"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
